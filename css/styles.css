@@ -1,0 +1,210 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+.container {
+    max-width: 100%;
+    height: auto;
+    background:url('../imagenes/tale.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-bar-nav {
+    display: flex;
+    justify-content: space-around;  
+    max-width: 100%;
+    height:120px;
+    margin: 0 auto;
+    background-color: #f8c291;
+    
+    opacity: 85%;
+}
+
+.top-bar-nav figure {
+    margin: 0;
+    margin-right: 80px;
+    max-width: 30%;
+    height: auto;
+}
+
+.top-bar-nav img {
+    width: 100%;
+    height: 100%;
+}
+
+.top-bar-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 50%; 
+}
+
+.top-bar-nav ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.top-bar-nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.top-bar-nav ul li a img {
+    width: 10px;
+    height: 10px;
+}
+
+.top-bar-nav ul li span a {
+    background-color: #D42405;
+    border-radius: 50px;
+}
+
+.top-bar-nav ul li span img {
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+/*Sección de lecura del cuento*/
+
+.main-section {
+    display: inline-flex;
+    justify-content: center;
+    max-width: 100%;
+    max-height:70%;
+    margin-top: 30px;
+}
+
+/*Sección del perfil*/
+.autor-name {
+    
+    max-width:15%;
+    height: 700px;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.autor-name p {
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;   
+}
+.autor-name span{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.autor-name img {
+    max-width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.autor-name button {
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    background: #D42405;
+    border-radius: 5px;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;  
+    cursor: pointer;
+}
+
+.autor-name ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    height: 70%;
+    list-style: none;
+}
+
+.autor-name ul li a img {
+    max-width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+.autor-name ul li a img:hover {
+    max-width: 55px;
+    height: 55px;
+}
+
+
+/*Sección del cuento*/
+
+.main-section .tale-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 60%;
+    height: auto;
+    
+    
+}
+
+.tale-section figure {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    max-width: 70%;
+    max-height: 80%;
+    
+
+}
+
+.tale-section figure img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+/*Sección del footer*/
+
+footer {
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    height: 100%;
+    background-color: #f8c291;
+    opacity: 85%;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0 auto;
+    padding: 15px 0;
+    width: 30%;
+    
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer .derechos {
+    border-top: 1px solid wheat;
+    padding:15px 0;
+}
+
+footer .derechos p {
+    margin:0;
+}
