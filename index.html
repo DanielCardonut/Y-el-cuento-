@@ -4,48 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="https://www.flaticon.es/svg/static/icons/svg/667/667214.svg">
     <title>Y el cuento?</title>
 </head>
 <body>
     <div class="container">
         <nav class="top-bar-nav">
-            <ul>
-                <li>
-                    <a href="">Mis cuentos <img src="https://www.flaticon.es/svg/static/icons/svg/566/566004.svg"></a>
-                </li>
-                <li>
-                    <a href="">Explorar <img src="https://www.flaticon.es/svg/static/icons/svg/566/566004.svg"></a>
-                </li>
-                <li>
-                    <a href="">Aporta tu cuento!</a>
-                </li>
-            </ul>
-
             <figure>
-                <img src="imagenes/logo.png" alt="logo">
+                <img src="imagenes/logo.png" alt="logo" id="logo-image">
             </figure>
-            <ul>
+            <ul id="right-side">
 
                 <li>
-                    <span><a href="">Login</a></span>
+                    <a href="">Ingresar</a>
                 </li>
                 <li>
-                    <span><a href="">Registro</a></span>
+                    <span><a href="">Registrate!</a></span>
                 </li>
                 <li>
                      <a href="">Buscar <span><img src="https://www.flaticon.es/svg/static/icons/svg/711/711319.svg"></span></a>
                 </li>
             </ul>
         </nav>
+        <div class="sub-nav-bar">
+            <ul class="sub-nav-op">
+                <li>
+                    <a href="">Tus cuentos</a>
+                </li>
+                <li>
+                    <a href="">Explorar</a>
+                </li>
+                <li>
+                    <a href="">Comunidad</a>
+                </li>
+                <li>
+                    <a href="">Aporta tu cuento!</a>
+                </li>
+                
+            </ul>
+        </div>
 
         <!-- Inicio de zona de lectura -->
-
+        <section class="tale-coverpage">
+            <figure>
+                <img src="https://www.gustavomirabal.es/wp-content/uploads/2019/04/Platero-y-Yo.jpg" alt="">
+            </figure>
+            <div class="tale-title-container">
+                <h2 class="tale-title">Juan y su Burro</h2>
+                
+                <div class="stats-container">
+                    <img src="https://www.flaticon.es/svg/static/icons/svg/609/609494.svg" alt="">
+                    <p>123</p>
+                    <img src="https://www.flaticon.es/svg/static/icons/svg/602/602545.svg" alt="">
+                    <p>6</p>
+                    <img src="https://www.flaticon.es/svg/static/icons/svg/616/616821.svg" alt="">
+                    <p>4</p>
+                </div>
+            </div>
+        </section>
         <section class="main-section">
-            <div class="autor-name">
-                <img src="imagenes/profile.jpg">
+            <div class="autor-profile">
+                <img id="profile-pic" src="https://i.pinimg.com/originals/0b/a1/95/0ba19579975a6bd8ada98a4f2a45d77a.jpg">
                 <p><span id="autor-nick">by </span>Hector Daniel</p>
-                <button>Follow</button>
+                <button>SEGUIR</button>
                 <ul>
+                    <li>
+                        <span><a>Compartir</a></span>
+                    </li>
+
                     <li>
                         <a href=""><img src="https://www.flaticon.es/svg/static/icons/svg/145/145802.svg"></a>
                     </li>
@@ -87,7 +113,7 @@
                 </ul>
             </div>
             <div class="derechos">
-                <p>Todos los derechos reservados © 2020 YmiCuento</p>
+                <p>Todos los derechos reservados :P © 2020 YMICUENTO</p>
             </div>
                 </footer>
         
